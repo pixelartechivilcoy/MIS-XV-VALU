@@ -22,15 +22,15 @@ body {
 }
 
 @font-face {
-  font-family: 'Axel';
-  src: url('AlexBrush-Regular.ttf') format('truetype');
+  font-family: 'Allura';
+  src: url('Allura-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open';
-  src: url('OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-family: 'Barlow';
+  src: url('Barlow-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -49,7 +49,7 @@ body {
 
 /* Título principal */
 .title {
-  font-family: 'Axel', cursive;
+  font-family: 'Allura', cursive;
   font-size: clamp(2.2rem, 6vw, 3.5rem);
   letter-spacing: 0px;
   font-weight: normal;
@@ -57,7 +57,7 @@ body {
 
 /* Subtítulo */
 .subtitle{
-  font-family: 'Open', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: clamp(1rem, 2.8vw, 1.15rem);
   letter-spacing: 0.06em;
   line-height: 1.8;
@@ -74,7 +74,7 @@ body {
   padding: 0.7rem 2.4rem;
   border-radius: 999px;
 
-  font-family: 'Open', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -130,7 +130,7 @@ body {
 
   font-size: clamp(2.2rem, 6vw, 3.5rem);
   letter-spacing: -0.5px;
-  font-family: 'Axel', cursive;
+  font-family: 'Allura', cursive;
   opacity: 0;
   animation: subirSuave 1.2s ease-out forwards;
 }
@@ -140,7 +140,7 @@ body {
   line-height: 1.4;
   max-width: 600px;
   letter-spacing: 0.5px;
-  font-family: 'Open', sans-serif;
+  font-family: 'Barlow', sans-serif;
   opacity: 0;
   animation: subirSuave 1.2s ease-out forwards;
   animation-delay: 0.3s;
@@ -150,7 +150,7 @@ body {
   margin-top: 1rem;
   padding: 0.8rem 2.5rem;
   font-size: 1rem;
-  font-family: 'Open', sans-serif;
+  font-family: 'Barlow', sans-serif;
   letter-spacing: 1px;
   color: #F7F3F2;
   background-color: #D88A86;
@@ -161,5 +161,8 @@ body {
   opacity: 0;
   animation: subirSuave 1.2s ease-out forwards;
   animation-delay: 0.6s;
+}
+
+
 }
 

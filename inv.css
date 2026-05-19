@@ -503,7 +503,7 @@ color:#F7F3F2;
 }
 .frase-texto {
   font-family: 'Barlow', sans-serif;
-  font-size: 1.2rem;      /* ⬅️ más grande */
+  font-size: 0.85rem;      /* ⬅️ más grande */
   letter-spacing: 0.08em;
   line-height: 1.6;
   text-transform: uppercase;
@@ -515,7 +515,7 @@ color:#F7F3F2;
 
 .frase-texto-oscura {
   font-family: 'Barlow', sans-serif;
-  font-size: 1.2rem;      /* ⬅️ más grande */
+  font-size: 0.85rem;      /* ⬅️ más grande */
   letter-spacing: 0.08em;
   line-height: 1.6;
   text-transform: uppercase;
